@@ -42,7 +42,7 @@ repos:
         - id: format-xmllint
           files: libraries/AP_DDS/dds_xrce_profile.xml
   -   repo: https://github.com/psf/black
-      rev: 24.10.0
+      rev: 25.1.0
       hooks:
         - id: black
           files: libraries\/AP_DDS\/(wscript|.*\.py)$
